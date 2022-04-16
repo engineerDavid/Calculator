@@ -53,59 +53,7 @@ namespace Calcualtor
             
         }
 
-        //private void handlebButtonClick(object sender, EventArgs e)
-        //{
-        //    //cast means to convert from object to sender type
-        //    //cast from sender to button
-        //    Button clickedButton = (Button) sender;
-        //    //Console.WriteLine(clickedButton.Text);
-        //    //if the button +, /, *, - 
-        //    //is pressed then create a new item in the array
-        //    //if nothing is presed then keep updating the string
-        //    //if = is pressed then sum up everything in the array 
-        //    //if CE is pressed then clear all items in array
-        //    //if C is pressed clear the sting being stored
-
-        //    if (button25.Text == "0")
-        //    {
-        //        button25.Text = clickedButton.Text;
-        //    }
-        //    else if (clickedButton.Text == "+")
-        //    {
-        //        //numbers.Add(button25.Text);
-        //        if (PreviousNumber != "0")
-        //        {
-        //            int Text = Convert.ToInt32(PreviousNumber) + Convert.ToInt32(button25.Text);
-        //            button25.Text = Convert.ToString(Text);
-        //            PreviousNumber = button25.Text;
-
-        //        }
-        //        else
-        //        {
-        //            PreviousNumber = button25.Text;
-        //            button25.Text = PreviousNumber;
-        //        }
-        //    }
-        //    else if (clickedButton.Text == "=") {
-        //        //int total = numbers.Sum(x => Convert.ToInt32(x));
-        //        //Console.WriteLine(total.ToString());
-            
-        //    }
-        //    else
-        //    {
-                
-        //        button25.Text = button25.Text + clickedButton.Text;
-
-
-        //        DataTable dt = new DataTable();
-        //        var v = dt.Compute("3*(2+4)", "");
-        //        Console.WriteLine(v);
-
-        //    }
-            
-            
-
-        //}
+        
 
         private void handlebButtonClick(object sender, EventArgs e)
         {
